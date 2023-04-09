@@ -7,6 +7,7 @@ public class Main {
         // 3. hello
         // 4. goodbye
         // 5. hello again!
+        // 6. i changed this...
         System.out.println("Hello world!");
 
     }
