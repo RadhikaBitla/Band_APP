@@ -14,6 +14,6 @@ public class Main {
         System.out.println(sbi.addMoney(20000));
         System.out.println(sbi.withdrawMoney(500));
         System.out.println(sbi.checkBalance());
-
+        System.out.println("ending");
     }
 }
