@@ -8,7 +8,12 @@ public class Main {
         // 4. goodbye
         // 5. hello again!
         // 6. i changed this...
-        System.out.println("Hello world!");
+        System.out.println("lets create a bank app");
+        bank sbi = new SBIBank(1000, "Radhika","Radhika@123");
+        System.out.println(sbi.checkBalance());
+        System.out.println(sbi.addMoney(20000));
+        System.out.println(sbi.withdrawMoney(500));
+        System.out.println(sbi.checkBalance());
 
     }
 }

@@ -1,12 +1,23 @@
+import java.util.UUID;
+
 public class SBIBank implements bank
 {
     public int getBalance() {
         return balance;
     }
 
-    public SBIBank(String name, String password) {
+    public SBIBank(int balance, int roi, String name, String password, String accountNumber) {
+        this.balance = balance;
+        this.roi = roi;
         this.name = name;
         this.password = password;
+        this.accountNumber = String.valueOf(UUID.randomUUID());
+    }
+
+    public SBIBank(int balance, String name, String password) {
+        this.name = name;
+        this.password = password;
+        this.balance=balance;
     }
 
     public String getAccountNumber() {
